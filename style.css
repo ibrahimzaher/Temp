@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.header {
+  padding: 90px;
+  text-align: center;
+  background: rgb(19, 54, 94);
+  color: white;
+}
+.navigationBar {
+  display: flex;
+  background-color: rgb(37, 95, 129);
+}
+.navigationBar a {
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 30px;
+}
+.side {
+  flex: 30%;
+  background-color: rgb(53, 122, 161);
+  padding: 30px;
+}
+.image {
+  background-color: rgb(207, 204, 204);
+  width: 100%;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(221, 221, 221);
+}
